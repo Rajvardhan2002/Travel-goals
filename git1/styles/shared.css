@@ -1,0 +1,61 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#page-logo a {
+  font-family: "Oleo Script", sans-serif;
+  margin: 10px;
+  color: rgb(245, 243, 160);
+  text-decoration: none;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0); /*left-right top-bottom blur-radius shadow-color */
+}
+header {
+  display: flex;
+  justify-content: space-between; /*tell compiler where to adjust extra spaces present*/
+  align-items: center;
+  padding: 15px;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+}
+header ul {
+  display: flex;
+}
+header li {
+  margin-left: 10px;
+}
+header li a {
+  text-decoration: none;
+  color: rgb(255, 251, 0);
+  font-size: 20px;
+  padding: 15px;
+}
+header li a:hover {
+  background-color: rgb(255, 251, 0);
+  border-radius: 8px;
+  color: rgb(77, 77, 77);
+}
+footer {
+  background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
+  padding: 40px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  column-gap: 45px;
+}
+footer li {
+  height: 80px;
+  width: 80px;
+}
+footer img {
+  height: 100%;
+  width: 100%;
+}

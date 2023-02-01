@@ -1,0 +1,71 @@
+body {
+  background: linear-gradient(40deg, rgb(58, 58, 58), rgb(77, 77, 77));
+  color: rgb(77, 77, 77);
+}
+header {
+  position: static;
+}
+#page-logo a {
+  color: rgb(183, 230, 235);
+}
+header li a {
+  color: rgb(183, 230, 235);
+}
+header li a:hover {
+  background-color: rgb(183, 230, 235);
+  color: rgb(59, 59, 59);
+}
+main ul {
+  width: 1200px;
+  margin: 0 auto 50px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 20px;
+}
+main li {
+  /* width: 500px; */
+  display: flex;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  background-color: white;
+}
+.item-content h2 {
+  font-size: 18px;
+}
+.item-content p {
+  font-size: 13px;
+  font-weight: 500;
+}
+main li img {
+  height: 280px;
+  width: 300px;
+  object-fit: cover; /*tell image not to squish. it only cuts the part which are not under the boundaries*/
+}
+main li div {
+}
+.item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+}
+.explore {
+  font-size: 15px;
+  text-align: end;
+  font-weight: bolder;
+}
+.explore a {
+  text-decoration: none;
+  padding: 10px;
+  color: rgb(22, 211, 228);
+  border-radius: 6px;
+}
+.explore a:hover {
+  background-color: rgb(235, 253, 255);
+}
+li:nth-of-type(3) {
+  grid-column: 1 / span 2;
+  /* width: 100%; */
+}
